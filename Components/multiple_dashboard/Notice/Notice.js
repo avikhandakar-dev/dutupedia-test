@@ -1,27 +1,31 @@
 import React from 'react'
 import Image from 'next/image'
+import calendar from '../../../Assets/icon/calendar.svg'
+import printer from '../../../Assets/icon/printer.png'
+import path from '../../../Assets/icon/Path.png'
+import share from '../../../Assets/icon/share.png'
 function Notice() {
   return (
   <div className='container w-[90%] mx-auto relative '>
   <div className=" flex justify-between w-full ">
      <h3 className='text-2xl font-bold text-[#313131] mt-5'>Notice</h3>
-     <div className='flex flex-row mt-4'>
-                <input className=' flex rounded-l-lg h-10 justify-center pl-3 items-center border-2 border-[#DA1E37] w-[100px]' placeholder='15th Aug. 2021'/>
-                <div className="flex justify-center w-10 h-[38px] bg-[#DA1E37]  rounded-r-lg p-1">
-            <Image src='/calendar.svg' className='bg-[#DA1E37] ' width={30} height={18} alt='calender'/>
+     <div className='flex flex-row mt-5'>
+                <input className=' flex rounded-l-lg h-10 pl-3 justify-center items-center border-2 border-[#DA1E37] w-[100px] md:w-[130px]' placeholder='15th Aug. 2021'/>
+                <div className="flex justify-center w-10 h-[40px] bg-[#DA1E37]  rounded-r-lg p-1">
+            <Image src={calendar} className='bg-[#DA1E37] ' width={30} height={18} alt='calender'/>
                         </div>
             </div>
   </div>
    <div className=' w-full h-[1000px] md:h-[1300px] rounded-2xl shadow-4xl md:shadow-3xl text-center -mt-16 bg-white mb-4'>
        <div className="flex justify-around items-center w-[117px] pt-10 absolute right-14 pb-20 mx-auto">
             <button className="outline-none border-none bg-transparent cursor-pointer">
-            <Image  src="/printer.png" width={23} height={23} alt='printer'/>
+            <Image  src={printer} width={23} height={23} alt='printer'/>
             </button>
             <button className="outline-none border-none bg-transparent cursor-pointer">
-            <Image  src="/Path.png" width={23} height={23} alt='path'/>
+            <Image  src={path} width={23} height={23} alt='path'/>
             </button>
             <button className="outline-none border-none bg-transparent cursor-pointer">
-            <Image  src="/share.png" width={23} height={23} alt='share'/>
+            <Image  src={share} width={23} height={23} alt='share'/>
             </button>
        </div>
      

@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import AppoinmentHeader from '../appoinment/AppoinmentHeader'
+import AppoinmentHeader from '../../Appointment/AppoinmentHeader'
+
+import leftarrow from '../../../../Assets/icon/leftarrow.svg'
 function CancelRequest() {
   return (
     <div>
@@ -10,7 +12,7 @@ function CancelRequest() {
          <div className="md:min-h-screen mt-12 w-[96%] mx-auto pb-5">
           <div className="flex flex-col  rounded-2xl shadow-4xl md:shadow-3xl bg-white drop-shadow-md h-auto pb-5">
           <div className="flex mt-6 ml-8 cursor-pointer">
-          <Image src="/leftarrow.svg" width={25} height={25} />
+          <Image src={leftarrow} width={25} height={25} alt='arrow'/>
           </div>
            
            

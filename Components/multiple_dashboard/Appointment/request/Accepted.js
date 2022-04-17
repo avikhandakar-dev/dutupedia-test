@@ -1,30 +1,31 @@
 import React from 'react'
 import Image from 'next/image'
-import AppoinmentHeader from '../appoinment/AppoinmentHeader'
+import AppoinmentHeader from '../../Appointment/AppoinmentHeader'
+import cross from '../../../../Assets/icon/cross.png'
 function Accepted() {
   return (
     <div className="container w-[90%] mx-auto relative ">
     <div className="  mt-16 h-auto rounded-2xl shadow-4xl md:shadow-3xl bg-white drop-shadow-md">
-     <AppoinmentHeader></AppoinmentHeader>
+   <AppoinmentHeader></AppoinmentHeader>
 
 
      <div className="grid justify-center">
      <div className="flex pt-4">
           <p className="pr-5 text-[#DA1E37] w-[100px] text-center cursor-pointer">Sent</p>
-          <div className="-ml-[20px] mt-4 bg-slate-300 w-[1px] h-[22px] mr-2">
+          <div className="-ml-[20px]  bg-slate-300 w-[1px] h-[22px] mr-2">
         </div>
           <p className="w-[100px] text-center pr-10 cursor-pointer">received</p>
         </div>
 
-        <div className="ml-[11px] -mt-[6px] bg-[#DA1E37]  w-[90px] h-[1px]">
+        <div className="ml-[13px] mt-3 bg-[#DA1E37]  w-[70px] h-[1px]">
         </div>
-        <div className="ml-[100px] -mt-[6px] bg-slate-300  w-[90px] h-[1px]">
+        <div className="ml-[84px] bg-slate-300  w-[80px] h-[1px]">
         </div>
      </div>
        <div className="md:min-h-screen h-auto mt-10 w-[96%] mx-auto pb-5">
         <div className="flex flex-col  rounded-2xl shadow-4xl md:shadow-3xl bg-white drop-shadow-md h-auto pb-5">
         <div className="flex mt-6 mr-7 justify-end cursor-pointer">
-        <Image src="/cross.svg" width={60} height={60} />
+        <Image src={cross} width={60} height={60} alt='ncjdnc'/>
         </div>
          
          

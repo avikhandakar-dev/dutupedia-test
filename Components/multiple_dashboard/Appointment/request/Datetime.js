@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import AppoinmentHeader from "../appoinment/AppoinmentHeader";
+import AppoinmentHeader from '../../Appointment/AppoinmentHeader'
+import calendar from '../../../../Assets/icon/calendar.svg'
+import clock from '../../../../Assets/icon/clock.svg'
 function Datetime() {
   return (
     <div className="container w-[90%] mx-auto relative ">
@@ -23,7 +25,7 @@ function Datetime() {
 
         <div className=" h-[700px] mt-10 w-[96%] mx-auto">
           <div className="flex flex-col  rounded-2xl shadow-4xl md:shadow-3xl bg-white drop-shadow-md h-[600px]">
-            <div className="flex md:ml-20 ml-2 flex-col">
+            <div className="flex md:ml-20 ml-2 flex-col mt-7">
               <p className="text-[22px] mb-3">Set Date</p>
               <div className="flex flex-row ">
                 <input
@@ -32,7 +34,7 @@ function Datetime() {
                 />
                 <div className="flex justify-center w-10 h-[38px] rounded-r-lg cursor-pointer bg-[#DA1E37]  p-1">
                   <Image
-                    src="/calendar.svg"
+                    src={calendar}
                     className="bg-[#DA1E37] "
                     width={30}
                     height={18}
@@ -42,7 +44,7 @@ function Datetime() {
               </div>
             </div>
 
-            <div className="flex md:ml-20 ml-2 flex-col">
+            <div className="flex md:ml-20 ml-2 flex-col mt-5">
               <p className="text-[22px] mb-3">Set Time</p>
               <div className="flex flex-row md:space-x-6 space-x-2">
                 <div className="flex flex-row ">
@@ -52,7 +54,7 @@ function Datetime() {
                   />
                   <div className="flex justify-center w-10 h-[38px] rounded-r-lg cursor-pointer bg-[#DA1E37] p-1">
                     <Image
-                      src="/clock.svg"
+                      src={clock}
                       className="bg-[#DA1E37] "
                       width={30}
                       height={18}
@@ -68,7 +70,7 @@ function Datetime() {
                   />
                   <div className="flex justify-center w-10 h-[38px] rounded-r-lg cursor-pointer bg-[#DA1E37]  p-1">
                     <Image
-                      src="/clock.svg"
+                      src={clock}
                       className="bg-[#DA1E37] "
                       width={30}
                       height={18}
@@ -78,12 +80,12 @@ function Datetime() {
                 </div>
               </div>
             </div>
-            <div className="flex md:ml-20 ml-2 flex-col w-[90%] mx-auto ">
+            <div className="flex md:ml-20 ml-2 flex-col w-[90%] mx-auto mt-5">
               <p className="text-[22px] mb-3">Description</p>
               <textarea
                 name=""
                 id=""
-                className=" h-[200px]  bg-[#ffffff] border-solid border-b-gray-500 rounded-lg outline-none pl-8 pt-8 "
+                className=" h-[200px]  bg-[#fbfbfb] border-solid border-b-gray-500 rounded-lg outline-none pl-8 pt-8 "
                 placeholder=""
               ></textarea>
             </div>

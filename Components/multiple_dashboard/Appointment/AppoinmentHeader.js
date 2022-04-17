@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import Classes from "./../../styles/Header.module.css";
+import Classes from "../../../styles/Header.module.css";
+import search from '../../../Assets/icon/search.svg'
+import calendar from '../../../Assets/icon/calendar.svg'
 function AppoinmentHeader() {
   return (
     <>
@@ -16,17 +18,17 @@ function AppoinmentHeader() {
             placeholder="Search"
           />
           <div className="absolute md:right-4 right-10 -top-1 mt-[18px] cursor-pointer">
-            <Image src="/search.svg" width={18} height={18} />
+            <Image src={search} width={18} height={18} alt='fdfd'/>
           </div>
         </div>
-        <div className="right-[230px] absolute md:-mt-6 mt-7 text-[18px] md:mr-3 -mr-3">
+        <div className="right-[230px] absolute md:-mt-3 mt-7 text-[18px] md:mr-3 -mr-3">
           Filter By
         </div>
         <div className="absolute md:right-14 right-7 md:top-[130px]">
           <div className="flex flex-row mt-4 ">
-            <div className="flex justify-center w-10 h-[38px] bg-[#DA1E37] rounded-l-lg p-1">
+            <div className="flex justify-center w-10 h-[40px] bg-[#DA1E37] rounded-l-lg p-1">
               <Image
-                src="/calendar.svg"
+                src={calendar}
                 className="bg-[#DA1E37] "
                 width={30}
                 height={18}
@@ -34,8 +36,8 @@ function AppoinmentHeader() {
               />
             </div>
             <input
-              className=" flex rounded-r-lg h-10 justify-center pl-3 items-center border-2 border-[#DA1E37] w-[100px]"
-              placeholder="15th Aug. 2021"
+              className=" flex rounded-r-lg md:w-[130px] h-10 justify-center pl-3 items-center border-2 border-[#DA1E37] w-[100px]"
+              placeholder="15th Aug.2021"
             />
           </div>
         </div>

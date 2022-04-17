@@ -2,7 +2,8 @@
 import React, { useState } from 'react';
 import Calendar from 'react-calendar';
 import Image from "next/image"
-import 'react-calendar/dist/Calendar.css';
+import calendar from '../../../Assets/icon/calendar.svg'
+
 function Noticeinfo() {
     const [value, onChange] = useState(new Date());
   return (
@@ -11,9 +12,9 @@ function Noticeinfo() {
         <div className="flex  flex-col absolute right-12 flex-shrink pb-40">
             <label className='mt-10 mb-2 ' htmlFor="">Select date</label>
             <div className='flex flex-row'>
-                <input className=' flex rounded-l-lg h-10 pl-3 justify-center items-center border-2 border-[#DA1E37] w-[100px]' placeholder='15th Aug. 2021'/>
-                <div className="flex justify-center w-10 h-[38px] bg-[#DA1E37]  rounded-r-lg p-1">
-            <Image src='/calendar.svg' className='bg-[#DA1E37] ' width={30} height={18} alt='calender'/>
+                <input className=' flex rounded-l-lg h-10 pl-3 justify-center items-center border-2 border-[#DA1E37] w-[100px] md:w-[130px]' placeholder='15th Aug. 2021'/>
+                <div className="flex justify-center w-10 h-[40px] bg-[#DA1E37]  rounded-r-lg p-1">
+            <Image src={calendar} className='bg-[#DA1E37] ' width={30} height={18} alt='calender'/>
                         </div>
             </div>
             <div className='hidden'>

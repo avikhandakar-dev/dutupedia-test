@@ -2,7 +2,7 @@ import Image from "next/image"
 import React from "react"
 import Calendar from '../../../Assets/icon/calendar.svg'
 import list from '../../../Assets/icon/list.png'
-
+import plus from '../../../Assets/icon/plus.png'
 
 
 function Addnotice() {
@@ -26,7 +26,7 @@ function Addnotice() {
               <Image src={list} width={72} height={93} alt='list' />
             </div>
             <button className="flex justify-center absolute w-[220px] outline-none border-none bg-transparent ">
-              <Image className="cursor-pointer" src="/plus.png" width={36} height={36} alt='plus' />
+              <Image className="cursor-pointer" src={plus} width={36} height={36} alt='plus' />
               <span className="ml-3 capitalize text-center text-lg text-[#666666] outline-none border-none bg-transparent cursor-pointer">add new notice</span>
             </button>
           </div>

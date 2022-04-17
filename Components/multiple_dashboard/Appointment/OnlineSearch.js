@@ -1,20 +1,23 @@
 import React from 'react'
 import Image from "next/image";
-import { Wrapper } from "../../styles/Scrollbar";
+import { Wrapper } from "../../../styles/Scrollbar";
+import search from '../../../Assets/icon/search.svg'
+import person1 from '../../../Assets/icon/person1.svg'
+import online from '../../../Assets/icon/online.svg'
 function OnlineSearch() {
   return (
     <div className="container md:w-[60%] w-[93%] mx-auto relative ">
     <div className="  mt-16 md:h-[600px] h-auto rounded-2xl shadow-4xl md:shadow-3xl bg-white drop-shadow-md">
       <div className="flex px-3 ml-6 pt-4">
         <p className="pr-8 text-[#DA1E37]">Dutpedia User</p>
-        <div className="-ml-[20px] mt-4 bg-slate-300 w-[1px] h-[22px] mr-3">
+        <div className="-ml-[20px]  bg-slate-300 w-[1px] h-[20px] mr-3">
       </div>
         <p className="">Offline User</p>
       </div>
 
-      <div className="ml-[35px] -mt-[6px]  bg-[#DA1E37]  w-[106px] h-[1px]">
+      <div className="ml-[35px] mt-2  bg-[#DA1E37]  w-[106px] h-[1px]">
       </div>
-      <div className="ml-[141px] -mt-[1px] bg-slate-300  w-[100px] h-[1px]">
+      <div className="ml-[141px] -mt-[1px] bg-slate-300  w-[120px] h-[1px]">
       </div>
 
       <div className=" flex justify-between w-full pt-10 md:flex-nowrap flex-wrap ">
@@ -29,7 +32,7 @@ function OnlineSearch() {
                 Tanisha shima 
             </div>
             <div className="absolute md:right-6 right-0 md:top-1 top-2 md:mt-[11px] w-10  h-8 cursor-pointer">
-              <Image src="/search.svg" width={18} height={28} />
+            <Image src={search} width={18} height={28} alt='fdefd'/>
             </div>
           </div>
          
@@ -45,11 +48,11 @@ function OnlineSearch() {
                 <div className="relative flex items-center ml-5">
                  
                 <div className="w-[50px] h-[50px] ">
-                      <Image src="/person1.svg" width={50} height={50} />
+                <Image src={person1} width={50} height={50} alt='fdefd'/>
                     </div>
                 
-                    <div className="absolute -bottom-[12px] -right-[12px] w-7 h-7">
-                      <Image  src="/online.svg" width={27} height={27} />
+                    <div className="absolute -bottom-[12px] -right-[15px] w-7 h-7">
+                    <Image src={online} width={22} height={28} alt='fdefd'/>
                     </div>
                 </div>
 
@@ -70,11 +73,11 @@ function OnlineSearch() {
                 <div className="relative flex items-center ml-5">
                  
                 <div className="w-[50px] h-[50px] ">
-                      <Image src="/person1.svg" width={50} height={50} />
+                <Image src={person1} width={50} height={50} alt='fdefd'/>
                     </div>
                 
-                    <div className="absolute -bottom-[12px] -right-[12px] w-7 h-7">
-                      <Image  src="/online.svg" width={27} height={27} />
+                    <div className="absolute -bottom-[12px] -right-[15px] w-7 h-7">
+                    <Image src={online} width={22} height={28} alt='fdefd'/>
                     </div>
                 </div>
 
@@ -95,11 +98,11 @@ function OnlineSearch() {
                 <div className="relative flex items-center ml-5">
                  
                 <div className="w-[50px] h-[50px] ">
-                      <Image src="/person1.svg" width={50} height={50} />
+                <Image src={person1} width={50} height={50} alt='fdefd'/>
                     </div>
                 
-                    <div className="absolute -bottom-[12px] -right-[12px] w-7 h-7">
-                      <Image  src="/online.svg" width={27} height={27} />
+                    <div className="absolute -bottom-[12px] -right-[15px] w-7 h-7">
+                    <Image src={online} width={22} height={28} alt='fdefd'/>
                     </div>
                 </div>
 
@@ -120,11 +123,11 @@ function OnlineSearch() {
                 <div className="relative flex items-center ml-5">
                  
                 <div className="w-[50px] h-[50px] ">
-                      <Image src="/person1.svg" width={50} height={50} />
+                <Image src={person1} width={50} height={50} alt='fdefd'/>
                     </div>
                 
-                    <div className="absolute -bottom-[12px] -right-[12px] w-7 h-7">
-                      <Image  src="/online.svg" width={27} height={27} />
+                    <div className="absolute -bottom-[12px] -right-[15px] w-7 h-7">
+                    <Image src={online} width={22} height={28} alt='fdefd'/>
                     </div>
                 </div>
 
@@ -145,11 +148,11 @@ function OnlineSearch() {
                 <div className="relative flex items-center ml-5">
                  
                 <div className="w-[50px] h-[50px] ">
-                      <Image src="/person1.svg" width={50} height={50} />
+                <Image src={person1} width={50} height={50} alt='fdefd'/>
                     </div>
                 
-                    <div className="absolute -bottom-[12px] -right-[12px] w-7 h-7">
-                      <Image  src="/online.svg" width={27} height={27} />
+                    <div className="absolute -bottom-[12px] -right-[15px] w-7 h-7">
+                    <Image src={online} width={22} height={28}  alt='fdefd'/>
                     </div>
                 </div>
 
