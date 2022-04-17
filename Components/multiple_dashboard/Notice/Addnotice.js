@@ -11,7 +11,7 @@ function Addnotice() {
      <div className='flex flex-row mt-16'>
                 <input className=' flex rounded-l-lg h-10 w-[100px] pl-3 justify-center items-center border-2 border-[#DA1E37]' placeholder='15th Aug. 2021'/>
                 <div className="flex justify-center items-center w-10 h-[38px] bg-[#DA1E37]  rounded-r-lg p-1">
-            <Image src='/calendar.svg' className='bg-[#DA1E37] ' width={30} height={18}  alt='calender'/>
+            <Image src='../../../Assets/icon/calendar.svg' className='bg-[#DA1E37] ' width={30} height={18}  alt='calender'/>
                         </div>
             </div>
   </div>
