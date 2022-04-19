@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import AppoinmentHeader from '../../Appointment/AppoinmentHeader'
-import cross from '../../../../Assets/icon/cross.png'
 import leftarrow from '../../../../Assets/icon/leftarrow.svg'
 function AppoinmentEnd() {
   return (

@@ -42,7 +42,7 @@ function OfflineSearch() {
           <Wrapper className="md:px-4 ">
             <div className="bg-white px-4 mt-4 rounded-md relative z-10  routine-table-body-section pb-5">
           
-            <div className="flex items-center border-t text-sm font-normal mt-4 w-full mx-auto ">
+            <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
                 <div className=" flex border-2 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-5xl">
                  
                   <div className="relative flex items-center ml-5">
@@ -66,7 +66,7 @@ function OfflineSearch() {
                 </div>
               </div>
 
-              <div className="flex items-center border-t text-sm font-normal mt-4 w-full mx-auto ">
+              <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
                 <div className=" flex border-2 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-5xl">
                  
                   <div className="relative flex items-center ml-5">
@@ -90,7 +90,7 @@ function OfflineSearch() {
                 </div>
               </div>
 
-              <div className="flex items-center border-t text-sm font-normal mt-4 w-full mx-auto ">
+              <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
                 <div className=" flex border-2 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-5xl">
                  
                   <div className="relative flex items-center ml-5">
@@ -114,7 +114,7 @@ function OfflineSearch() {
                 </div>
               </div>
 
-              <div className="flex items-center border-t text-sm font-normal mt-4 w-full mx-auto ">
+              <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
                 <div className=" flex border-2 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-5xl">
                  
                   <div className="relative flex items-center ml-5">
@@ -138,7 +138,7 @@ function OfflineSearch() {
                 </div>
               </div>
 
-              <div className="flex items-center border-t text-sm font-normal mt-4 w-full mx-auto ">
+              <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
                 <div className=" flex border-2 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-5xl">
                  
                   <div className="relative flex items-center ml-5">

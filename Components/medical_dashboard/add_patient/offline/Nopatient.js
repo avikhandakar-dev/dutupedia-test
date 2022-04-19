@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from "next/image"
+import search from '../../../../Assets/icon/search.svg'
+import roundedplus from '../../../../Assets/icon/roundedplus.svg'
 function Nopatient() {
   return (
     <div className="container w-[90%] mx-auto relative ">
@@ -9,14 +11,14 @@ function Nopatient() {
     <input className=" h-10 px-5  w-[90%] pr-8 rounded-lg text-sm focus:outline-none mx-auto ml-5 md:ml-8 outline-none border-2 border-solid border-[#ECECEC]"
       type="search" name="search" placeholder="Search"/>
     <div className='absolute md:right-4 right-10 top-0 mt-[18px] cursor-pointer'>
-    <Image  src='/search.svg' width={18} height={18}/>
+    <Image src={search} width={18} height={18} alt='search' />
     </div>
   </div>
  <div className='absolute md:right-4 right-6 top-[90px] md:top-[85px]'>
      <button className='flex flex-row md:ml-[230px] md:mr-8 bg-transparent border-none cursor-pointer items-center '>
      <p className='capitalize mr-2 text-lg text-[#707070]'>Add Patient</p>
      <div className='flex items-center'>
-    <Image  src='/roundedplus.svg' width={40} height={40}/>
+     <Image src={roundedplus} width={40} height={40} alt='search' />
     </div>
      </button>
     

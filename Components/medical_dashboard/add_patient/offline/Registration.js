@@ -1,20 +1,25 @@
 import React from 'react'
 import Image from 'next/image'
-import { Wrapper } from '../../styles/Scrollbar'
+import { Wrapper } from '../../../../styles/Scrollbar'
+import cross from '../../../../Assets/icon/cross.svg'
+import camera from '../../../../Assets/icon/camera.svg'
+import person from '../../../../Assets/icon/person.svg'
+import downarrow from '../../../../Assets/icon/downarrow.svg'
+
 function Registration() {
   return (
     <div className='container w-[90%] mx-auto relative '>
         <div className='absolute -right-5 -mt-9 cursor-pointer'>
-      <Image src='/cross.svg' width={45} height={45}/>
+      <Image src={cross} width={45} height={45} alt='cross'/>
       </div>
     <div className="  mt-16 md:h-[700px] h-[2350px] rounded-2xl shadow-4xl md:shadow-3xl bg-white drop-shadow-md pt-16 ">
     
     <div className='w-[210px] h-[210px] mx-auto rounded-2xl shadow-4xl md:shadow-5xl bg-white drop-shadow-md relative'>
       <div className='float-right m-4 rounded-full shadow-4xl md:shadow-4xl bg-white w-6 h-6 text-center p-1 cursor-pointer'>
-        <Image src='/camera.svg' width={20} height={20}/>
+        <Image src={camera} width={20} height={20} alt='camera'/>
       </div>
       <div className='  absolute ml-4 mt-10'>
-        <Image src='/person.svg' width={180} height={150}/>
+        <Image src={person} width={180} height={150} alt='person'/>
       </div>
       <p className='pl-10 absolute bottom-0 text-[12px] text-[#666666]'>Upload Photo 2Mb At Lest </p>
     </div>
@@ -34,7 +39,7 @@ function Registration() {
     <option>Female</option>
   </select>
   <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none bg-[#Da1E37] rounded-r-lg">
-  <Image src='/downarrow.svg' width={20} height={20}/>
+  <Image src={downarrow} width={20} height={20} alt='downarrowe'/>
   </div>
 </div>
       </div>
