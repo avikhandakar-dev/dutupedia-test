@@ -1,5 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
+import downarrow from '../../../Assets/icon/downarrow.svg'
+import roundedplus from '../../../Assets/icon/roundedplus.svg'
+import noadmission from '../../../Assets/icon/noadmission.svg'
 function ClassSection() {
   return (
     <div className="container w-[90%] lg:w-[40%] mx-auto relative ">
@@ -14,7 +17,7 @@ function ClassSection() {
     <option>nine</option>
   </select>
   <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none bg-[#Da1E37] rounded-r-lg">
-  <Image src='/downarrow.svg' width={20} height={20}/>
+  <Image src={downarrow} width={20} height={20}/>
   </div>
 </div>
       </div>
@@ -27,7 +30,7 @@ function ClassSection() {
     <option>C</option>
   </select>
   <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none bg-[#Da1E37] rounded-r-lg">
-  <Image src='/downarrow.svg' width={20} height={20}/>
+  <Image src={downarrow} width={20} height={20}/>
   </div>
 </div>
       </div>
@@ -35,10 +38,10 @@ function ClassSection() {
    
 
       <div className="mt-12 flex justify-end ">
-        <button className="w-[120px] lg:w-[130px] h-[45px] bg-[#DA1E37] text-white cursor-pointer outline-none rounded-lg mr-5 shadow-4xl md:shadow-5xl  drop-shadow-md border-none text-[11px]">
+        <button className="w-[120px] lg:w-[130px] h-[45px] bg-[#DA1E37] text-white cursor-pointer outline-none rounded-lg mr-5 shadow-3xl md:shadow-3xl  drop-shadow-md border-none text-[11px]">
           Yes
         </button>
-        <button className="w-[120px] lg:w-[130px] h-[45px] border-2 border-solid border-[#DA1E37] text-[#DA1E37] bg-transparent cursor-pointer outline-none  rounded-lg mr-5 shadow-4xl ">
+        <button className="w-[120px] lg:w-[130px] h-[45px] border-2 border-solid border-[#DA1E37] text-[#DA1E37] bg-transparent cursor-pointer outline-none  rounded-lg mr-5 shadow-3xl ">
           No
         </button>
       </div>

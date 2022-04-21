@@ -24,6 +24,18 @@ import styles from "../styles/Home.module.css";
 import RequestCanceled from "../Components/medical_dashboard/add_patient/online/RequestCanceled";
 import RequestSent from "../Components/medical_dashboard/add_patient/online/RequestSent";
 import WaitForAccept from "../Components/medical_dashboard/add_patient/online/WaitForAccept";
+import AppoinmentHeader from "../Components/multiple_dashboard/Appointment/AppoinmentHeader";
+import AdAccepted from "../Components/educational_dashboard/admission/AdAccepted";
+import AdmissionAcpted from "../Components/educational_dashboard/admission/AdmissionAcpted";
+import AdmissionCanceled from "../Components/educational_dashboard/admission/AdmissionCanceled";
+import AdmitedSuccess from "../Components/educational_dashboard/admission/AdmitedSuccess";
+import CancelPop from "../Components/educational_dashboard/admission/CancelPop";
+import ClassSection from "../Components/educational_dashboard/admission/ClassSection";
+import NoAdmission from "../Components/educational_dashboard/admission/NoAdmission";
+import SetAdReqDoc from "../Components/educational_dashboard/admission/SetAdReqDoc";
+import RequireDoc from "../Components/educational_dashboard/admission/RequireDoc";
+import StdOfflineAccept from "../Components/educational_dashboard/admission/StdOfflineAccept";
+import RegFileChose from "../Components/educational_dashboard/admission/RegFileChose";
 
 export default function Home() {
   return (
@@ -34,12 +46,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className="w-screen overflow-x-hidden">
         {/* <Addnotice></Addnotice>
       <Notice></Notice>
       <Noticeinfo></Noticeinfo>
      <Nofile></Nofile> */}
-        <OfflineSearch></OfflineSearch>
+        {/* <OfflineSearch></OfflineSearch>
         <OnlineSearch></OnlineSearch>
         <OfflineTime></OfflineTime>
         <OnlineTime></OnlineTime>
@@ -57,7 +69,23 @@ export default function Home() {
         <RequestAccepted></RequestAccepted>
         <RequestCanceled></RequestCanceled>
         <RequestSent></RequestSent>
-        <WaitForAccept></WaitForAccept>
+        <WaitForAccept></WaitForAccept> */}
+
+        {/* admission multiple */}
+        <AdAccepted></AdAccepted>
+        <AdmissionAcpted></AdmissionAcpted>
+        <AdmissionCanceled></AdmissionCanceled>
+        <AdmitedSuccess></AdmitedSuccess>
+        <CancelPop></CancelPop>
+        <ClassSection></ClassSection>
+        <NoAdmission></NoAdmission>
+        <SetAdReqDoc></SetAdReqDoc>
+        <RequireDoc></RequireDoc>
+        <StdOfflineAccept></StdOfflineAccept>
+        <RegFileChose></RegFileChose>
+
+
+      
       </main>
     </div>
   );
