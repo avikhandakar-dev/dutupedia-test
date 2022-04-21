@@ -22,6 +22,8 @@ import Notice from "../Components/multiple_dashboard/Notice/Notice";
 import Noticeinfo from "../Components/multiple_dashboard/Notice/Noticeinfo";
 import styles from "../styles/Home.module.css";
 import RequestCanceled from "../Components/medical_dashboard/add_patient/online/RequestCanceled";
+import RequestSent from "../Components/medical_dashboard/add_patient/online/RequestSent";
+import WaitForAccept from "../Components/medical_dashboard/add_patient/online/WaitForAccept";
 
 export default function Home() {
   return (
@@ -54,6 +56,8 @@ export default function Home() {
         <Noonlinepatient></Noonlinepatient>
         <RequestAccepted></RequestAccepted>
         <RequestCanceled></RequestCanceled>
+        <RequestSent></RequestSent>
+        <WaitForAccept></WaitForAccept>
       </main>
     </div>
   );
