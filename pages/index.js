@@ -1,9 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
+import RequestAccepted from "../Components/medical_dashboard/add_patient/online/RequestAccepted";
 import Addpatient from "../Components/medical_dashboard/add_patient/offline/Addpatient";
 import Nopatient from "../Components/medical_dashboard/add_patient/offline/Nopatient";
 import Registration from "../Components/medical_dashboard/add_patient/offline/Registration";
 import AddPatientList from "../Components/medical_dashboard/add_patient/online/AddPatientList";
+import Noonlinepatient from "../Components/medical_dashboard/add_patient/online/Noonlinepatient";
 import Nofile from "../Components/multiple_dashboard/Appointment/Nofile";
 import OfflineSearch from "../Components/multiple_dashboard/Appointment/OfflineSearch";
 import OfflineTime from "../Components/multiple_dashboard/Appointment/OfflineTime";
@@ -19,6 +21,7 @@ import Addnotice from "../Components/multiple_dashboard/Notice/Addnotice";
 import Notice from "../Components/multiple_dashboard/Notice/Notice";
 import Noticeinfo from "../Components/multiple_dashboard/Notice/Noticeinfo";
 import styles from "../styles/Home.module.css";
+import RequestCanceled from "../Components/medical_dashboard/add_patient/online/RequestCanceled";
 
 export default function Home() {
   return (
@@ -48,6 +51,9 @@ export default function Home() {
         <Nopatient></Nopatient>
         <Registration></Registration>
         <AddPatientList></AddPatientList>
+        <Noonlinepatient></Noonlinepatient>
+        <RequestAccepted></RequestAccepted>
+        <RequestCanceled></RequestCanceled>
       </main>
     </div>
   );

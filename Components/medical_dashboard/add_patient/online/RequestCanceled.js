@@ -1,6 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import { Wrapper } from '../../styles/Scrollbar'
+import { Wrapper } from "../../../../styles/Scrollbar";
+import search from '../../../../Assets/icon/search.svg';
+import roundedplus from '../../../../Assets/icon/roundedplus.svg';
+import onlineSvg from '../../../../Assets/icon/online.svg'
+import person1 from '../../../../Assets/icon/person1.svg'
 function RequestCanceled() {
   return (
     <div className="container w-[90%] mx-auto relative ">
@@ -26,7 +30,7 @@ function RequestCanceled() {
               placeholder="Search"
             />
             <div className="absolute md:right-4 right-10 top-0 mt-[11px] cursor-pointer">
-              <Image src="/search.svg" width={18} height={18} />
+              <Image src={search} width={18} height={18}  alt='search'/>
             </div>
           </div>
           <div className="absolute md:right-4 right-6 top-[130px] md:top-[85px] mt-3 md:mt-0">
@@ -35,7 +39,7 @@ function RequestCanceled() {
                 Add Patient
               </p>
               <div className="flex items-center">
-                <Image src="/roundedplus.svg" width={40} height={40} />
+                <Image src={roundedplus} width={40} height={40}  alt='search'/>
               </div>
             </button>
           </div>
@@ -46,7 +50,7 @@ function RequestCanceled() {
 <Wrapper className="md:px-4">
   <div className="bg-white px-4 mt-4 md:rounded-md relative z-10 routine-table-body-section ">
    
-          <div className="flex items-center bg-[#DA1E37] rounded-md py-2 md:px-4 text-white font-bold text-md w-full md:w-[97%] mx-auto top-0 sticky z-10">
+          <div className="flex items-center bg-[#DA1E37] rounded-md py-2 md:px-4 text-white font-bold text-md w-full md:w-[100%] mx-auto top-0 sticky z-10">
             <div className='md:mr-24 mr-8 ml-2'>
               <span className='text-lg'>Sl No</span>
             </div>
@@ -54,16 +58,16 @@ function RequestCanceled() {
               <span className='text-lg -ml-1'>Patient</span>
             </div>
           </div>
-          <div className="flex items-center border-t text-sm font-normal mt-4">
-                  <div className=" flex border-2 rounded-md items-center w-full relative h-[125px] md:h-20 shadow-5xl">
-                    <span className='pr-[90px] pl-3 -mt-5'>01</span>
+          <div className="flex items-center text-sm font-normal mt-4">
+                  <div className=" flex  rounded-md items-center w-full relative h-[125px] md:h-20 shadow-3xl">
+                    <span className='pr-[90px] pl-3 '>01</span>
                     <span className='rounded-lg -mt-5 md:mt-0 -ml-7'>
-                      <Image src='/person1.svg' width={50} height={50}/>
+                      <Image src={person1} width={50} height={50}/>
                     </span>
                     <span className='flex mt-5 md:mt-9 -ml-4'>
-                    <Image  src='/online.svg' width={27} height={27}/>
+                    <Image  src={onlineSvg} width={27} height={27}/>
                     </span>
-                    <div className="flex flex-col -space-y-3 -mt-10 md:-mt-5 items-center">
+                    <div className="flex flex-col -space-y-3 -mt-10 md:-mt-2 items-center">
                     <p className='pl-4 text-[#707070] text-[15px] '>Tanisha  shima </p>
                     <p className='pl-4 text-[#707070] text-[12px]'>Id: Dp  343463</p>
                     </div>
@@ -74,7 +78,7 @@ function RequestCanceled() {
                     
                     </div>
 
-                    <div className='right-5 absolute flex-col -space-y-3 -mt-10 md:-mt-5 invisible md:visible'>
+                    <div className='right-5 absolute flex-col space-y-1 -mt-10 md:-mt-1 invisible md:visible'>
                     <p className='pl-4 text-[#707070] text-[15px] flex  justify-center'>Request Canceled</p>
                     <a className='pl-4 text-[#DA1E37] text-[15px] flex justify-center underline cursor-pointer'>Sand Again</a>
                     
@@ -83,16 +87,16 @@ function RequestCanceled() {
                   </div>
                 </div>
 
-                <div className="flex items-center border-t text-sm font-normal mt-4">
-                  <div className=" flex border-2 rounded-md items-center w-full relative h-[125px] md:h-20 shadow-5xl">
-                    <span className='pr-[90px] pl-3 -mt-5'>01</span>
+                <div className="flex items-center text-sm font-normal mt-4">
+                  <div className=" flex  rounded-md items-center w-full relative h-[125px] md:h-20 shadow-3xl">
+                    <span className='pr-[90px] pl-3 '>01</span>
                     <span className='rounded-lg -mt-5 md:mt-0 -ml-7'>
-                      <Image src='/person1.svg' width={50} height={50}/>
+                      <Image src={person1} width={50} height={50}/>
                     </span>
                     <span className='flex mt-5 md:mt-9 -ml-4'>
-                    <Image  src='/online.svg' width={27} height={27}/>
+                    <Image  src={onlineSvg} width={27} height={27}/>
                     </span>
-                    <div className="flex flex-col -space-y-3 -mt-10 md:-mt-5 items-center">
+                    <div className="flex flex-col -space-y-3 -mt-10 md:-mt-2 items-center">
                     <p className='pl-4 text-[#707070] text-[15px] '>Tanisha  shima </p>
                     <p className='pl-4 text-[#707070] text-[12px]'>Id: Dp  343463</p>
                     </div>
@@ -103,7 +107,7 @@ function RequestCanceled() {
                     
                     </div>
 
-                    <div className='right-5 absolute flex-col -space-y-3 -mt-10 md:-mt-5 invisible md:visible'>
+                    <div className='right-5 absolute flex-col space-y-1 -mt-10 md:-mt-1 invisible md:visible'>
                     <p className='pl-4 text-[#707070] text-[15px] flex  justify-center'>Request Canceled</p>
                     <a className='pl-4 text-[#DA1E37] text-[15px] flex justify-center underline cursor-pointer'>Sand Again</a>
                     
@@ -112,16 +116,16 @@ function RequestCanceled() {
                   </div>
                 </div>
 
-                <div className="flex items-center border-t text-sm font-normal mt-4">
-                  <div className=" flex border-2 rounded-md items-center w-full relative h-[125px] md:h-20 shadow-5xl">
-                    <span className='pr-[90px] pl-3 -mt-5'>01</span>
+                <div className="flex items-center text-sm font-normal mt-4">
+                  <div className=" flex  rounded-md items-center w-full relative h-[125px] md:h-20 shadow-3xl">
+                    <span className='pr-[90px] pl-3 '>01</span>
                     <span className='rounded-lg -mt-5 md:mt-0 -ml-7'>
-                      <Image src='/person1.svg' width={50} height={50}/>
+                      <Image src={person1} width={50} height={50}/>
                     </span>
                     <span className='flex mt-5 md:mt-9 -ml-4'>
-                    <Image  src='/online.svg' width={27} height={27}/>
+                    <Image  src={onlineSvg} width={27} height={27}/>
                     </span>
-                    <div className="flex flex-col -space-y-3 -mt-10 md:-mt-5 items-center">
+                    <div className="flex flex-col -space-y-3 -mt-10 md:-mt-2 items-center">
                     <p className='pl-4 text-[#707070] text-[15px] '>Tanisha  shima </p>
                     <p className='pl-4 text-[#707070] text-[12px]'>Id: Dp  343463</p>
                     </div>
@@ -132,7 +136,7 @@ function RequestCanceled() {
                     
                     </div>
 
-                    <div className='right-5 absolute flex-col -space-y-3 -mt-10 md:-mt-5 invisible md:visible'>
+                    <div className='right-5 absolute flex-col space-y-1 -mt-10 md:-mt-1 invisible md:visible'>
                     <p className='pl-4 text-[#707070] text-[15px] flex  justify-center'>Request Canceled</p>
                     <a className='pl-4 text-[#DA1E37] text-[15px] flex justify-center underline cursor-pointer'>Sand Again</a>
                     
@@ -141,16 +145,16 @@ function RequestCanceled() {
                   </div>
                 </div>
 
-                <div className="flex items-center border-t text-sm font-normal mt-4">
-                  <div className=" flex border-2 rounded-md items-center w-full relative h-[125px] md:h-20 shadow-5xl">
-                    <span className='pr-[90px] pl-3 -mt-5'>01</span>
+                <div className="flex items-center text-sm font-normal mt-4">
+                  <div className=" flex  rounded-md items-center w-full relative h-[125px] md:h-20 shadow-3xl">
+                    <span className='pr-[90px] pl-3 '>01</span>
                     <span className='rounded-lg -mt-5 md:mt-0 -ml-7'>
-                      <Image src='/person1.svg' width={50} height={50}/>
+                      <Image src={person1} width={50} height={50} alt='search'/>
                     </span>
                     <span className='flex mt-5 md:mt-9 -ml-4'>
-                    <Image  src='/online.svg' width={27} height={27}/>
+                    <Image  src={onlineSvg} width={27} height={27} alt='search'/>
                     </span>
-                    <div className="flex flex-col -space-y-3 -mt-10 md:-mt-5 items-center">
+                    <div className="flex flex-col -space-y-3 -mt-10 md:-mt-2 items-center">
                     <p className='pl-4 text-[#707070] text-[15px] '>Tanisha  shima </p>
                     <p className='pl-4 text-[#707070] text-[12px]'>Id: Dp  343463</p>
                     </div>
@@ -161,7 +165,7 @@ function RequestCanceled() {
                     
                     </div>
 
-                    <div className='right-5 absolute flex-col -space-y-3 -mt-10 md:-mt-5 invisible md:visible'>
+                    <div className='right-5 absolute flex-col space-y-1 -mt-10 md:-mt-1 invisible md:visible'>
                     <p className='pl-4 text-[#707070] text-[15px] flex  justify-center'>Request Canceled</p>
                     <a className='pl-4 text-[#DA1E37] text-[15px] flex justify-center underline cursor-pointer'>Sand Again</a>
                     

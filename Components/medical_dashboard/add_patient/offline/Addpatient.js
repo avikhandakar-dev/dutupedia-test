@@ -57,7 +57,7 @@ function Addpatient() {
                 </div>
               </div>
               <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
-                <div className=" flex border rounded-lg items-center w-full  md:h-20 h-[9rem] shadow-5xl">
+                <div className=" flex border rounded-lg items-center w-full  md:h-20 h-[9rem] shadow-3xl">
                   <span className="md:pr-[90px] pr-10 pl-6 ">
                     01
                   </span>
@@ -88,7 +88,7 @@ function Addpatient() {
               </div>
 
               <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
-                <div className=" flex border-2 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-5xl">
+                <div className=" flex  rounded-md items-center w-full  md:h-20 h-[9rem] shadow-3xl">
                   <span className="md:pr-[90px] pr-10 pl-6 ">
                     01
                   </span>
@@ -119,7 +119,7 @@ function Addpatient() {
               </div>
 
               <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
-                <div className=" flex border rounded-lg items-center w-full  md:h-20 h-[9rem] shadow-5xl">
+                <div className=" flex border rounded-lg items-center w-full  md:h-20 h-[9rem] shadow-3xl">
                   <span className="md:pr-[90px] pr-10 pl-6 ">
                     01
                   </span>
@@ -150,7 +150,7 @@ function Addpatient() {
               </div>
 
               <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
-                <div className=" flex border rounded-lg items-center w-full  md:h-20 h-[9rem] shadow-5xl">
+                <div className=" flex border rounded-lg items-center w-full  md:h-20 h-[9rem] shadow-3xl">
                   <span className="md:pr-[90px] pr-10 pl-6 ">
                     01
                   </span>
@@ -181,7 +181,7 @@ function Addpatient() {
               </div>
 
               <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
-                <div className=" flex border rounded-lg items-center w-full  md:h-20 h-[9rem] shadow-5xl">
+                <div className=" flex border rounded-lg items-center w-full  md:h-20 h-[9rem] shadow-3xl">
                   <span className="md:pr-[90px] pr-10 pl-6 ">
                     01
                   </span>

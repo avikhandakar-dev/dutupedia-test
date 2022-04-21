@@ -1,6 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import { Wrapper } from "../../styles/Scrollbar";
+import { Wrapper } from "../../../../styles/Scrollbar";
+import search from '../../../../Assets/icon/search.svg';
+import roundedplus from '../../../../Assets/icon/roundedplus.svg';
+import onlineSvg from '../../../../Assets/icon/online.svg'
+import person1 from '../../../../Assets/icon/person1.svg'
 function RequestSent() {
   return (
     <div className="container w-[90%] mx-auto relative ">

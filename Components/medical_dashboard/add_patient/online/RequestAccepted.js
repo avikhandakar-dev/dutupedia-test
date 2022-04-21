@@ -1,6 +1,14 @@
 import React from 'react'
 import Image from "next/image"
-import { Wrapper } from "../../styles/Scrollbar";
+import { Wrapper } from "../../../../styles/Scrollbar";
+import search from '../../../../Assets/icon/search.svg';
+import roundedplus from '../../../../Assets/icon/roundedplus.svg';
+import onlineSvg from '../../../../Assets/icon/online.svg'
+import person1 from '../../../../Assets/icon/person1.svg'
+import shild from '../../../../Assets/icon/shild.svg'
+import send from '../../../../Assets/icon/send.svg'
+
+
 function RequestAccepted() {
   return (
     <div className="container w-[90%] mx-auto relative ">
@@ -26,7 +34,7 @@ function RequestAccepted() {
               placeholder="Search"
             />
             <div className="absolute md:right-4 right-10 top-0 mt-[11px] cursor-pointer">
-              <Image src="/search.svg" width={18} height={18} />
+              <Image src={search} width={18} height={18}  alt='search'/>
             </div>
           </div>
           <div className="absolute md:right-4 right-6 top-[130px] md:top-[85px] mt-3 md:mt-0">
@@ -35,7 +43,7 @@ function RequestAccepted() {
                 Add Patient
               </p>
               <div className="flex items-center">
-                <Image src="/roundedplus.svg" width={40} height={40} />
+                <Image src={roundedplus} width={40} height={40}  alt='search'/>
               </div>
             </button>
           </div>
@@ -44,7 +52,7 @@ function RequestAccepted() {
       <div className=" min-h-screen mt-20 md:mt-14">
         <Wrapper className="md:px-4">
           <div className="bg-white px-4 mt-4 md:rounded-md relative z-10 routine-table-body-section ">
-            <div className="flex items-center bg-[#DA1E37] rounded-md py-2 md:px-4 text-white font-bold text-md w-full md:w-[97%] mx-auto top-0 sticky z-10">
+            <div className="flex items-center bg-[#DA1E37] rounded-md py-2 md:px-4 text-white font-bold text-md w-full md:w-[100%] mx-auto top-0 sticky z-10">
               <div className="md:mr-24 mr-8 ml-2 md:ml-0">
                 <span className="text-lg">Sl No</span>
               </div>
@@ -52,24 +60,24 @@ function RequestAccepted() {
                 <span className="text-lg">Member</span>
               </div>
             </div>
-            <div className="flex items-center border-t text-sm font-normal mt-4 w-full mx-auto ">
-              <div className=" flex border-2 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-5xl">
+            <div className="flex items-center text-sm font-normal mt-4 w-full mx-auto ">
+              <div className=" flex  rounded-md items-center w-full  md:h-20 h-[9rem] shadow-3xl">
                 <span className="md:pr-[90px] pr-10 pl-6">
                   01
                 </span>
                 <div className="relative flex items-center">
                  
                   <div className="w-[50px] h-[50px] ">
-                    <Image src="/person1.svg" width={50} height={50} />
+                    <Image src={person1} width={50} height={50}  alt='search'/>
                   </div>
               
                   <div className="absolute -bottom-[12px] -right-[12px] w-7 h-7">
-                    <Image  src="/online.svg" width={27} height={27} />
+                    <Image  src={onlineSvg} width={27} height={27} alt='search' />
                   </div>
                 </div>
 
                 <div className="flex flex-col justify-between md:flex-row w-full">
-                  <div className="-space-y-3 mt-4 ml-4 md:-mt-3">
+                  <div className="-space-y-3 mt-4 ml-4 md:mt-0">
                     <p className="md:pl-4 pl-1 text-[#707070] text-[15px]">
                       Tanisha shima{" "}
                     </p>
@@ -78,37 +86,37 @@ function RequestAccepted() {
                     </p>
                   </div>
                   <p className=' text-[#DA1E37] text-[12px] visible md:invisible absolute left-10 mt-[87px]'>Request Accepted</p>
-                  <p className=' text-[#DA1E37] text-[15px] hidden md:block'>Request Accepted</p>
+                  <p className=' text-[#DA1E37] text-[15px]  items-center hidden md:flex'>Request Accepted</p>
                   <div className="flex flex-wrap items-center mt-2">
                     <div className="flex shadow-3xl rounded-full cursor-pointer mr-4 ml-4 w-7 md:w-10">
-                      <Image src="/shild.svg" width={40} height={40} />
+                      <Image src={shild} width={40} height={40} alt='search' />
                     </div>
                     <div className="right-5  flex shadow-3xl rounded-full cursor-pointer mr-3 w-7 md:w-10">
-                      <Image src="/send.svg" width={40} height={40} />
+                      <Image src={send} width={40} height={40} alt='search' />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
            
-            <div className="flex items-center border-t text-sm font-normal mt-4 w-full mx-auto ">
-              <div className=" flex border-2 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-5xl">
+            <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
+              <div className=" flex  rounded-md items-center w-full  md:h-20 h-[9rem] shadow-3xl">
                 <span className="md:pr-[90px] pr-10 pl-6">
                   01
                 </span>
                 <div className="relative flex items-center">
                  
                   <div className="w-[50px] h-[50px] ">
-                    <Image src="/person1.svg" width={50} height={50} />
+                    <Image src={person1} width={50} height={50} />
                   </div>
               
                   <div className="absolute -bottom-[12px] -right-[12px] w-7 h-7">
-                    <Image  src="/online.svg" width={27} height={27} />
+                    <Image  src={onlineSvg} width={27} height={27} />
                   </div>
                 </div>
 
                 <div className="flex flex-col justify-between md:flex-row w-full">
-                  <div className="-space-y-3 mt-4 ml-4 md:-mt-3">
+                  <div className="-space-y-3 mt-4 ml-4 md:mt-0">
                     <p className="md:pl-4 pl-1 text-[#707070] text-[15px]">
                       Tanisha shima{" "}
                     </p>
@@ -117,37 +125,37 @@ function RequestAccepted() {
                     </p>
                   </div>
                   <p className=' text-[#DA1E37] text-[12px] visible md:invisible absolute left-10 mt-[87px]'>Request Accepted</p>
-                  <p className=' text-[#DA1E37] text-[15px] hidden md:block'>Request Accepted</p>
+                  <p className=' text-[#DA1E37] text-[15px]  items-center hidden md:flex'>Request Accepted</p>
                   <div className="flex flex-wrap items-center mt-2">
                     <div className="flex shadow-3xl rounded-full cursor-pointer mr-4 ml-4 w-7 md:w-10">
-                      <Image src="/shild.svg" width={40} height={40} />
+                      <Image src={shild} width={40} height={40} />
                     </div>
                     <div className="right-5  flex shadow-3xl rounded-full cursor-pointer mr-3 w-7 md:w-10">
-                      <Image src="/send.svg" width={40} height={40} />
+                      <Image src={send} width={40} height={40} />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="flex items-center border-t text-sm font-normal mt-4 w-full mx-auto ">
-              <div className=" flex border-2 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-5xl">
+            <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
+              <div className=" flex  rounded-md items-center w-full  md:h-20 h-[9rem] shadow-3xl">
                 <span className="md:pr-[90px] pr-10 pl-6">
                   01
                 </span>
                 <div className="relative flex items-center">
                  
                   <div className="w-[50px] h-[50px] ">
-                    <Image src="/person1.svg" width={50} height={50} />
+                    <Image src={person1} width={50} height={50} alt='search' />
                   </div>
               
                   <div className="absolute -bottom-[12px] -right-[12px] w-7 h-7">
-                    <Image  src="/online.svg" width={27} height={27} />
+                    <Image  src={onlineSvg} width={27} height={27} alt='search' />
                   </div>
                 </div>
 
                 <div className="flex flex-col justify-between md:flex-row w-full">
-                  <div className="-space-y-3 mt-4 ml-4 md:-mt-3">
+                  <div className="-space-y-3 mt-4 ml-4 md:mt-0">
                     <p className="md:pl-4 pl-1 text-[#707070] text-[15px]">
                       Tanisha shima{" "}
                     </p>
@@ -156,13 +164,13 @@ function RequestAccepted() {
                     </p>
                   </div>
                   <p className=' text-[#DA1E37] text-[12px] visible md:invisible absolute left-10 mt-[87px]'>Request Accepted</p>
-                  <p className=' text-[#DA1E37] text-[15px] hidden md:block'>Request Accepted</p>
+                  <p className=' text-[#DA1E37] text-[15px]  items-center hidden md:flex'>Request Accepted</p>
                   <div className="flex flex-wrap items-center mt-2">
                     <div className="flex shadow-3xl rounded-full cursor-pointer mr-4 ml-4 w-7 md:w-10">
-                      <Image src="/shild.svg" width={40} height={40} />
+                      <Image src={shild} width={40} height={40} alt='search' />
                     </div>
                     <div className="right-5  flex shadow-3xl rounded-full cursor-pointer mr-3 w-7 md:w-10">
-                      <Image src="/send.svg" width={40} height={40} />
+                      <Image src={send} width={40} height={40} alt='search' />
                     </div>
                   </div>
                 </div>

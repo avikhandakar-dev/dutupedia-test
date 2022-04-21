@@ -8,7 +8,7 @@ import ad from '../../../../Assets/icon/ad.svg'
 import online from '../../../../Assets/icon/online.svg'
 function AddPatientList() {
   return (
-    <div className="container w-[90%] mx-auto relative ">
+    <div className="container w-[90%] mx-auto relative">
       <div className="absolute -right-5 -mt-9 cursor-pointer">
         <Image src={cross} width={45} height={45} alt='cross' />
       </div>
@@ -29,7 +29,7 @@ function AddPatientList() {
 
             <div className="flex items-center  text-sm font-normal mt-4 ">
             <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
-                <div className=" flex border-2 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-5xl">
+                <div className=" flex  rounded-md items-center w-full  md:h-20 h-[9rem] shadow-3xl">
                   
                   <div className="relative flex items-center ml-3">
                    
@@ -69,7 +69,7 @@ function AddPatientList() {
 
             <div className="flex items-center  text-sm font-normal mt-4 ">
             <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
-                <div className=" flex border-2 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-5xl">
+                <div className=" flex  rounded-md items-center w-full  md:h-20 h-[9rem] shadow-3xl">
                   
                   <div className="relative flex items-center ml-3">
                    
@@ -109,7 +109,7 @@ function AddPatientList() {
 
             <div className="flex items-center  text-sm font-normal mt-4 ">
             <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
-                <div className=" flex border-2 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-5xl">
+                <div className=" flex  rounded-md items-center w-full  md:h-20 h-[9rem] shadow-3xl">
                   
                   <div className="relative flex items-center ml-3">
                    
@@ -149,7 +149,7 @@ function AddPatientList() {
 
             <div className="flex items-center  text-sm font-normal mt-4 ">
             <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
-                <div className=" flex border-2 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-5xl">
+                <div className=" flex  rounded-md items-center w-full  md:h-20 h-[9rem] shadow-3xl">
                   
                   <div className="relative flex items-center ml-3">
                    
@@ -189,7 +189,7 @@ function AddPatientList() {
 
             <div className="flex items-center  text-sm font-normal mt-4 ">
             <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
-                <div className=" flex border-2 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-5xl">
+                <div className=" flex  rounded-md items-center w-full  md:h-20 h-[9rem] shadow-3xl">
                   
                   <div className="relative flex items-center ml-3">
                    

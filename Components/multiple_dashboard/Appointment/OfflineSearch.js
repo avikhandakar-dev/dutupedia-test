@@ -7,7 +7,7 @@ import { Wrapper } from "../../../styles/Scrollbar";
 function OfflineSearch() {
   return (
     <div className="container md:w-[60%] w-[93%] mx-auto relative ">
-      <div className="  mt-16 md:h-[700px] h-auto rounded-2xl shadow-4xl md:shadow-3xl bg-white drop-shadow-md">
+      <div className="  mt-16  h-auto rounded-2xl shadow-3xl md:shadow-3xl bg-white drop-shadow-md">
         <div className="flex px-3 ml-6 pt-4 ">
           <p className="pr-8">Dutpedia User</p>
           <div className="-ml-[20px]  bg-slate-300 w-[1px] h-[20px] mr-3">
@@ -43,7 +43,7 @@ function OfflineSearch() {
             <div className="bg-white px-4 mt-4 rounded-md relative z-10  routine-table-body-section pb-5">
           
             <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
-                <div className=" flex border-2 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-5xl">
+                <div className=" flex  rounded-md items-center w-full  md:h-20 h-[9rem] shadow-3xl">
                  
                   <div className="relative flex items-center ml-5">
                    
@@ -67,7 +67,7 @@ function OfflineSearch() {
               </div>
 
               <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
-                <div className=" flex border-2 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-5xl">
+                <div className=" flex border border-gray-100 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-3xl ">
                  
                   <div className="relative flex items-center ml-5">
                    
@@ -91,7 +91,7 @@ function OfflineSearch() {
               </div>
 
               <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
-                <div className=" flex border-2 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-5xl">
+                <div className=" flex border- rounded-md items-center w-full  md:h-20 h-[9rem] shadow-3xl">
                  
                   <div className="relative flex items-center ml-5">
                    
@@ -115,7 +115,7 @@ function OfflineSearch() {
               </div>
 
               <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
-                <div className=" flex border-2 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-5xl">
+                <div className=" flex border- rounded-md items-center w-full  md:h-20 h-[9rem] shadow-3xl">
                  
                   <div className="relative flex items-center ml-5">
                    
@@ -139,7 +139,7 @@ function OfflineSearch() {
               </div>
 
               <div className="flex items-center  text-sm font-normal mt-4 w-full mx-auto ">
-                <div className=" flex border-2 rounded-md items-center w-full  md:h-20 h-[9rem] shadow-5xl">
+                <div className=" flex border- rounded-md items-center w-full  md:h-20 h-[9rem] shadow-3xl">
                  
                   <div className="relative flex items-center ml-5">
                    
