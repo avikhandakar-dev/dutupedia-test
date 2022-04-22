@@ -82,7 +82,7 @@ export default function Home() {
         <SetAdReqDoc></SetAdReqDoc>
         <RequireDoc></RequireDoc>
         <StdOfflineAccept></StdOfflineAccept>
-        <RegFileChose></RegFileChose>
+      
 
 
       
