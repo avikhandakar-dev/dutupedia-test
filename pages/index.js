@@ -1,3 +1,4 @@
+
 import Head from "next/head";
 import Image from "next/image";
 import RequestAccepted from "../Components/medical_dashboard/add_patient/online/RequestAccepted";
