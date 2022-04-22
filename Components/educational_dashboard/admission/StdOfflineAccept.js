@@ -250,7 +250,7 @@ function StdOfflineAccept() {
                   />
                 </span>
                 <p className="w-[200px] text-[16px] font-medium">Paid</p>
-                <p className="underline -ml-36 text-[14px]">View Receipt</p>
+                <p className="underline -ml-36 text-[14px] cursor-pointer">View Receipt</p>
               </div>
             </div>
           </div>

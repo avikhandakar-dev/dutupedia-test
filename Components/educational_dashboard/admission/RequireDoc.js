@@ -17,7 +17,7 @@ function RequireDoc() {
         <p className="text-center">Admission Require Documents</p>
 
         <div className="flex p-2 justify-end md:mr-[200px] mb-2 cursor-pointer">
-          <Image src={edit} alt="arrow" width={30} height={30} />
+          <Image src={edit} alt="arrow" width={55} height={55} />
         </div>
 
         <div className="md:w-[70%] w-[95%] mx-auto  rounded-xl shadow-4xl md:shadow-3xl bg-white drop-shadow-md ">
