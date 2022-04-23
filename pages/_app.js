@@ -11,11 +11,6 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Provider store={store}>
-        {/* {routeArray[1] === 'multiple_dashboard' && (
-          <>
-            hello
-          </>
-        )} */}
         <Component {...pageProps} />
       </Provider>
     </>
