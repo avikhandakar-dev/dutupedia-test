@@ -1,6 +1,8 @@
 import { useRouter } from 'next/router';
 import React from 'react';
 import { Provider } from 'react-redux';
+import SideNavBar from '../Components/navbar/sidebar';
+import TopNavBar from '../Components/navbar/topbar';
 import store from '../redux/store';
 import '../styles/globals.css';
 
@@ -11,6 +13,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Provider store={store}>
+        <TopNavBar />
+        <SideNavBar />
         <Component {...pageProps} />
       </Provider>
     </>
