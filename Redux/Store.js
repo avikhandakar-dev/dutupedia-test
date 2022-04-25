@@ -1,9 +1,12 @@
 import { createStore } from 'redux';
 
-const state = {}
-const reducer = (state, action) => { }
 
-const store = createStore(reducer);
-
+const initialState = {};
+const middleware = [thunkMiddleware];
+const store = createStore(
+    reducers,
+    initialState,
+    composeWithDevTools(applyMiddleware(...middleware))
+);
 export default store;
 

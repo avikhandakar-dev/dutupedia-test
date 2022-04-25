@@ -262,7 +262,7 @@
     justify-self: center;
     height: 90%;
     width: 28rem;
-    margin-left: 0rem;
+    margin-left: -8rem;
 }
 .logo > div,
 .nav_account_image > div,

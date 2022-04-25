@@ -1,17 +1,17 @@
 /* eslint-disable react/react-in-jsx-scope */
-import DashBordIcon from './icons/DashBordIcon';
-import ServiceIcon from './icons/ServiceIcon';
-import MemberIcon from './icons/MemberIcon';
-import GroupIcon from './icons/GroupIcon';
-import NoticeIcon from './icons/NoticeIcon';
-import StafIcon from './icons/StafIcon';
-import ExpenseIcon from './icons/ExpenseIcon';
 import BlanceIcon from './icons/BlanceIcon';
 import CoustomerReviewIcon from './icons/CoustomerReviewIcon';
+import DashBordIcon from './icons/DashBordIcon';
+import ExpenseIcon from './icons/ExpenseIcon';
+import GroupIcon from './icons/GroupIcon';
+import MemberIcon from './icons/MemberIcon';
+import NoticeIcon from './icons/NoticeIcon';
+import ServiceIcon from './icons/ServiceIcon';
 import SettingIcon from './icons/SettingIcon';
+import StafIcon from './icons/StafIcon';
 
 // eslint-disable-next-line import/prefer-default-export
-export const menusData = [
+export const multipleDashboardData = [
     {
         // eslint-disable-next-line react/react-in-jsx-scope
         // eslint-disable-next-line react/jsx-filename-extension
@@ -134,7 +134,7 @@ export const menusData = [
         dropdownList: [
             {
                 title: 'Employee List',
-                link: '/dashboard_1/staff'
+                link: '/multiple_dashboard/staff_and_partner'
             },
             {
                 title: 'Employee Attendance'
