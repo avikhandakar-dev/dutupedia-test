@@ -24,7 +24,7 @@ import {
     user_salary_status_upcoming_edit,
     user_salary_type_edit,
     user_staff_partner_access_edit
-} from '../../../../../../Redux/Dashboard_1/Action/Staff/Dutypedia/editHeandeler';
+} from '../../../../../../Redux/Actions/multiple_dashboard/Staff_And_Partner/Dutypedia/editHeandeler';
 import {
     CheckBox,
     JoiningDate,

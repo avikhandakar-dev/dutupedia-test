@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { edit_offline_user_salary_status_set_paid } from '../../../../../Redux/Dashboard_1/Action/Staff/Offline/offlineEditHendeler';
+import { edit_offline_user_salary_status_set_paid } from '../../../../../Redux/Actions/multiple_dashboard/Staff_And_Partner/Offline/offlineEditHendeler';
 import EmployeeSalaryBoxHeader from '../../../../../Utilities/EmployeeSalaryBoxHeader';
 import EmployeeSalaryHeader from '../../../../../Utilities/EmployeeSalaryHeader';
 import SingelBox from './BoxAndDeatils/SingleBox';

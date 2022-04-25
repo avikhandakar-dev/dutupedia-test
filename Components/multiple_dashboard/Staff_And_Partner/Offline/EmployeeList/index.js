@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import BigAddIcon from '../../../../../Assets/images/dashboard/BigAddIcon';
-import { delete_offline_user } from '../../../../../Redux/Dashboard_1/Action/Staff/Offline';
+import { delete_offline_user } from '../../../../../Redux/Actions/multiple_dashboard/Staff_And_Partner/Offline/index';
 import DeleteMember from '../../../../../Utilities/DeleteMember';
 import IsEmployeeHeader from '../../../../../Utilities/IsEmployeeHeader';
 import QrCodePopup from '../../../../../Utilities/QrCodePopup';

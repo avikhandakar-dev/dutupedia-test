@@ -13,7 +13,7 @@ import {
     edit_offline_user_salary_status_set_due,
     edit_offline_user_salary_status_set_upcoming,
     edit_offline_user_salary_type
-} from '../../../../../../Redux/Dashboard_1/Action/Staff/Offline/offlineEditHendeler';
+} from '../../../../../../Redux/Actions/multiple_dashboard/Staff_And_Partner/Offline/offlineEditHendeler';
 import {
     JoiningDate,
     Position,

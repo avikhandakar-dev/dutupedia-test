@@ -21,7 +21,7 @@ import {
     user_present_address_region,
     user_religion,
     user_remove_data
-} from '../../../../../../Redux/Dashboard_1/Action/Staff/Dutypedia/index';
+} from '../../../../../../Redux/Actions/multiple_dashboard/Staff_And_Partner/Dutypedia/index';
 import Address from '../../../../../../Utilities/Address';
 import UploadingFile from '../../../../../../Utilities/UploadingFile';
 import {
@@ -50,24 +50,24 @@ function AddMemberInformation({ setAddInformationPopup, setCreateEmployeePopup }
 
     const dispatch = useDispatch();
 
-    const firstName = useSelector((state) => state.dutypedia.first_name);
-    const middleName = useSelector((state) => state.dutypedia.middle_name);
-    const lastName = useSelector((state) => state.dutypedia.last_name);
-    const userGender = useSelector((state) => state.dutypedia.gender);
-    const bloodGroup = useSelector((state) => state.dutypedia.blood_group);
-    const dateOfBirth = useSelector((state) => state.dutypedia.date_of_birth);
-    const religion = useSelector((state) => state.dutypedia.religion);
-    const nationality = useSelector((state) => state.dutypedia.nationality);
+    const firstName = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.first_name);
+    const middleName = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.middle_name);
+    const lastName = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.last_name);
+    const userGender = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.gender);
+    const bloodGroup = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.blood_group);
+    const dateOfBirth = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.date_of_birth);
+    const religion = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.religion);
+    const nationality = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.nationality);
 
-    const presentAddressRegion = useSelector((state) => state.dutypedia.pres_region);
-    const presentAddressCity = useSelector((state) => state.dutypedia.pres_city);
-    const presentAddressArea = useSelector((state) => state.dutypedia.pres_area);
-    const presentAddressAddress = useSelector((state) => state.dutypedia.pres_address);
+    const presentAddressRegion = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.pres_region);
+    const presentAddressCity = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.pres_city);
+    const presentAddressArea = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.pres_area);
+    const presentAddressAddress = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.pres_address);
 
-    const permanentAddressRegion = useSelector((state) => state.dutypedia.perm_region);
-    const permanentAddressCity = useSelector((state) => state.dutypedia.perm_city);
-    const permanentAddressArea = useSelector((state) => state.dutypedia.perm_area);
-    const permanentAddressAddress = useSelector((state) => state.dutypedia.perm_address);
+    const permanentAddressRegion = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.perm_region);
+    const permanentAddressCity = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.perm_city);
+    const permanentAddressArea = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.perm_area);
+    const permanentAddressAddress = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.perm_address);
 
     useEffect(() => {
         getApiCall(getEmployeeJoinTypeURL)

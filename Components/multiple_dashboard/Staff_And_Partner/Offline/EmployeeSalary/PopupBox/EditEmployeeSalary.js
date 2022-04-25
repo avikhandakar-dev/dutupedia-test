@@ -10,7 +10,7 @@ import {
     edit_offline_user_salary_status_set_due,
     edit_offline_user_salary_status_set_upcoming,
     edit_offline_user_salary_type
-} from '../../../../../../Redux/Dashboard_1/Action/Staff/Offline/offlineEditHendeler';
+} from '../../../../../../Redux/Actions/multiple_dashboard/Staff_And_Partner/Offline/offlineEditHendeler';
 import {
     SalaryAmount,
     SalaryDateEveryDay,
@@ -139,10 +139,10 @@ function EditEmployeeSalary({ editPopup, setEditPopup, user }) {
                                 user.user_salary.salary_status_upcoming
                                     ? 'upcoming'
                                     : user.user_salary.salary_status_due
-                                    ? 'due'
-                                    : user.user_salary.salary_status_paid
-                                    ? 'paid'
-                                    : ''
+                                        ? 'due'
+                                        : user.user_salary.salary_status_paid
+                                            ? 'paid'
+                                            : ''
                             }
                             action={(value) => {
                                 dispatch(

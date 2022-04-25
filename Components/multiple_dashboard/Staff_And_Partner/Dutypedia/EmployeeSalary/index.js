@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { user_salary_status_paid_edit } from '../../../../../Redux/Dashboard_1/Action/Staff/Dutypedia/editHeandeler';
+import { user_salary_status_paid_edit } from '../../../../../Redux/Actions/multiple_dashboard/Staff_And_Partner/Dutypedia/editHeandeler';
 import EmployeeSalaryBoxHeader from '../../../../../Utilities/EmployeeSalaryBoxHeader';
 import EmployeeSalaryHeader from '../../../../../Utilities/EmployeeSalaryHeader';
 import SingelBox from './BoxAndDeatils/SingelBox';

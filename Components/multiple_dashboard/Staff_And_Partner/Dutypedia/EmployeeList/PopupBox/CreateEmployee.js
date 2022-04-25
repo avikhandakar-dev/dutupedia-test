@@ -16,7 +16,7 @@ import {
     user_salary_status_set_due,
     user_salary_status_set_upcoming,
     user_salary_type
-} from '../../../../../../Redux/Dashboard_1/Action/Staff/Dutypedia';
+} from '../../../../../../Redux/Actions/multiple_dashboard/Staff_And_Partner/Dutypedia/editHeandeler';
 import {
     CheckBox,
     Position,
@@ -38,14 +38,14 @@ function CreateEmployee({
     const [renderSalaryReletedBox, setRenderSalaryReletedBox] = useState(true);
     const [getPermitionData, setGetPermitionData] = useState([]);
 
-    const userPosition = useSelector((state) => state.dutypedia.position);
-    const joiningDate = useSelector((state) => state.dutypedia.joining_date);
-    const salaryAmount = useSelector((state) => state.dutypedia.salary_amount);
-    const salaryType = useSelector((state) => state.dutypedia.salary_type);
-    const salaryDayTime = useSelector((state) => state.dutypedia.salary_date_every_day);
-    const salaryDayWeek = useSelector((state) => state.dutypedia.salary_date_every_week);
-    const salaryDayMonth = useSelector((state) => state.dutypedia.salary_date_every_date);
-    const postUserOBJ = useSelector((state) => state.dutypedia);
+    const userPosition = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.position);
+    const joiningDate = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.joining_date);
+    const salaryAmount = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.salary_amount);
+    const salaryType = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.salary_type);
+    const salaryDayTime = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.salary_date_every_day);
+    const salaryDayWeek = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.salary_date_every_week);
+    const salaryDayMonth = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers.salary_date_every_date);
+    const postUserOBJ = useSelector((state) => state.multiple_dashboard.staff_and_partner.dutypediaReducers);
 
     const dispatch = useDispatch();
 

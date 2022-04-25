@@ -8,7 +8,7 @@ import {
     user_gender,
     user_religion,
     user_user_name
-} from '../../../../../../Redux/Dashboard_1/Action/Staff/Dutypedia/index';
+} from '../../../../../../Redux/Actions/multiple_dashboard/Staff_And_Partner/Dutypedia/index';
 import { SearchBox } from '../../../../../../Utilities/Utilites';
 import { getApiCall } from '../../../api/apiFatchMethod';
 import { getAllUserURL } from '../../../api/apiUrl';

@@ -10,7 +10,7 @@ import {
     user_salary_status_edit,
     user_salary_status_upcoming_edit,
     user_salary_type_edit
-} from '../../../../../../Redux/Dashboard_1/Action/Staff/Dutypedia/editHeandeler';
+} from '../../../../../../Redux/Actions/multiple_dashboard/Staff_And_Partner/Dutypedia/editHeandeler';
 import {
     SalaryAmount,
     SalaryDateEveryDay,
@@ -127,10 +127,10 @@ function EditEmployeeSalary({ editPopup, setEditPopup, user }) {
                                 user.user_salary.salary_status_upcoming
                                     ? 'upcoming'
                                     : user.user_salary.salary_status_due
-                                    ? 'due'
-                                    : user.user_salary.salary_status_paid
-                                    ? 'paid'
-                                    : ''
+                                        ? 'due'
+                                        : user.user_salary.salary_status_paid
+                                            ? 'paid'
+                                            : ''
                             }
                             action={(value) => {
                                 dispatch(user_salary_status_edit({ id: user.user_id, value }));

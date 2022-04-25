@@ -14,7 +14,7 @@ import {
     offline_user_salary_status_set_due,
     offline_user_salary_status_set_upcoming,
     offline_user_salary_type
-} from '../../../../../../Redux/Dashboard_1/Action/Staff/Offline/index';
+} from '../../../../../../Redux/Actions/multiple_dashboard/Staff_And_Partner/Offline/index';
 import {
     JoiningDate,
     Position,
@@ -57,9 +57,8 @@ function OfflineCreateMember({
             user_image: user_profile_image,
             user_as_a_member,
             user_as_a_staff,
-            name: `${user_first_name} ${
-                user_middle_name ? user_middle_name : ''
-            } ${user_last_name}`,
+            name: `${user_first_name} ${user_middle_name ? user_middle_name : ''
+                } ${user_last_name}`,
             user_gender,
             user_blood_group,
             user_date_of_birth,

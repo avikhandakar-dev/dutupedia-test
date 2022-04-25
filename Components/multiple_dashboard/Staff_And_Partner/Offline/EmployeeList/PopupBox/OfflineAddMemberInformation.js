@@ -24,7 +24,7 @@ import {
     offline_user_profile_image,
     offline_user_religion,
     offline_user_removed_documentes
-} from '../../../../../../Redux/Dashboard_1/Action/Staff/Offline/index';
+} from '../../../../../../Redux/Actions/multiple_dashboard/Staff_And_Partner/Offline/index';
 import Address from '../../../../../../Utilities/Address';
 import UploadingFile from '../../../../../../Utilities/UploadingFile';
 import UploadProfileImage from '../../../../../../Utilities/UploadProfileImage';

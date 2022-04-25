@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import BigAddIcon from '../../../../../Assets/images/dashboard/BigAddIcon';
-import { delete_user } from '../../../../../Redux/Dashboard_1/Action/Staff/Dutypedia/editHeandeler';
+import { delete_user } from '../../../../../Redux/Actions/multiple_dashboard/Staff_And_Partner/Dutypedia/editHeandeler';
 import CanceledRequest from '../../../../../Utilities/CanceledRequest';
 import DeleteMember from '../../../../../Utilities/DeleteMember';
 import IsEmployeeHeader from '../../../../../Utilities/IsEmployeeHeader';
@@ -38,14 +38,14 @@ function EmployList() {
     const [renderEditCreateEmployee, setRenderEditCreateEmployee] = useState(false);
 
 
-    const allUser = useSelector((state) => state.onlineUser.user);
+    const allUser = useSelector((state) => state.multiple_dashboard.staff_and_partner.onlineUser.user);
     const dispatch = useDispatch();
 
     useEffect(() => {
         getApiCall(getEmployeeURL).then((response) => setAllMemberAndStaff(response));
         getApiCall(getSingleEmployeeURL(id)).then(response => setSingleMemberAndStaff(response))
 
-    }, [allMemberAndStaff,]);
+    }, [allMemberAndStaff, id]);
 
     return (
         <>
