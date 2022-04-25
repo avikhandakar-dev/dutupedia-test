@@ -18,7 +18,7 @@ function Staff() {
 
     return (
         <div className="w-full h-auto bg-none inline-block lg:p-[35px] p-[15px] lg:pl-[95px] transition-all ease-linear relative">
-            <div className="w-full min-h-[550px] lg:min-h-[430px] bg-white p-[26px] shadow-3xl rounded-[16px]">
+            <div className="w-full min-h-[550px] lg:min-h-[650px] bg-white p-[26px] shadow-3xl rounded-[16px]">
                 <div className=" w-full h-auto pb-[5px] lg:pb-[20px]">
                     <div
                         className="w-full h-auto flex justify-center align-middle text-[#313131]"

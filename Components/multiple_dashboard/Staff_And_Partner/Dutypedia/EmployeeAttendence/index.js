@@ -46,7 +46,7 @@ function EmployeeAttendence() {
                 <DeleteMember
                     setDeleteMember={setAttendenceDeletePopup}
                     deleteMember={attendenceDeletePopup}
-                    actions={() => {}}
+                    actions={() => { }}
                 />
             )}
             {attendenceMemberDeatils && (
@@ -61,7 +61,7 @@ function EmployeeAttendence() {
 
                 <div className="w-full h-auto pt-[6px] overflow-auto scrollbar">
                     <div>
-                        <div className="w-[1165px] h-auto">
+                        <div className="w-full h-auto">
                             <AttendenceListHeader />
 
                             <div className="w-full h-auto py-[10px] px-[3px]">

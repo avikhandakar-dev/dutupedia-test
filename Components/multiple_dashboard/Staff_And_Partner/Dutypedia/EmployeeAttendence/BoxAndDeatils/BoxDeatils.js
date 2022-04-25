@@ -15,7 +15,7 @@ function BoxDeatils({
     return (
         <div className="w-full h-auto py-[6px] px-[8px] shadow-3xl mb-[13px] rounded-[5px] ">
             <div
-                className="w-full h-auto flex align-middle text-[16px]"
+                className="w-full h-auto flex align-middle  justify-between text-[16px]"
                 style={{ alignItems: 'center' }}>
                 <div className="w-[215px] h-auto flex">
                     <div className="w-[70px] h-[50px] relative">
@@ -49,21 +49,21 @@ function BoxDeatils({
                 </div>
 
                 <div
-                    className="w-[205px] text-center flex justify-evenly align-middle"
+                    className="w-[215px] text-center flex justify-evenly align-middle"
                     style={{ alignItems: 'center' }}>
                     <span>Company Holiday</span>
                     <Image className="cursor-pointer" src={DownIcon} alt={'DownIcon'} />
                 </div>
 
-                <div className="w-[120px] text-center">
+                <div className="w-[120px] text-right">
                     <span>2 Hours</span>
                 </div>
 
-                <div className="w-[150px] text-center">
+                <div className="w-[150px] text-right">
                     <span>10 Hours</span>
                 </div>
 
-                <div className="w-[18px] flex justify-end relative cursor-pointer">
+                <div className="w-[10px] flex justify-end relative cursor-pointer">
                     <Image
                         onClick={() => {
                             isOption ? setIsOption(false) : setIsOption(true);
